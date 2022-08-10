@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chatbot de merde</title>
+</head>
+<body>
+<h1 style="text-align: center">Chatbot de merde</h1>
+<div id="chat" style="text-align: center">
+    <div id="chat-messages"></div>
+    <div id="chat-input">
+        <label for="chat-input-text"></label><input type="text" id="chat-input-text" placeholder="Entrez votre message">
+        <button id="chat-input-send">Envoyer</button>
+    </div>
+</div>
+</body>
+<script>
+    document.getElementById('chat-input-send').onclick = () => {
+        const xhr = new XMLHttpRequest();
+        xhr.open("POST", "chat", true);
+        xhr.onreadystatechange = function() {
+            if (this.readyState === 4 && this.status === 200) {
+                document.getElementById("chat-messages").innerHTML = this.responseText;
+            }
+        };
+        xhr.send(document.getElementById('chat-input-text').value);
+    }
+</script>
+</html>

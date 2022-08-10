@@ -1,0 +1,7 @@
+{
+  "name": "ChatBot",
+  "version": "1.0.0",
+  "dependencies": {
+    "fastify": "^4.3.0"
+  }
+}

@@ -1,0 +1,151 @@
+[
+    {
+        "phrases": [
+            "bonjour",
+            "salut",
+            "hello",
+            "hey",
+            "hi",
+            "wsh",
+            "coucou",
+            "cc",
+            "yo"
+        ],
+        "answers": [
+            "salut",
+            "bonjour",
+            "hello",
+            "hey",
+            "yo"
+        ]
+    },
+    {
+        "phrases": [
+            "comment vas tu",
+            "comment ça va",
+            "comment allez-vous",
+            "ça va?",
+            "quelle est ton humeur",
+            "comment tu sens tu"
+        ],
+        "answers": [
+            "je vais bien, merci.",
+            "je me porte à merveille"
+        ]
+    },
+    {
+        "phrases": [
+            "connard",
+            "enculé",
+            "fdp",
+            "ntm",
+            "pute",
+            "con",
+            "tg"
+        ],
+        "answers": [
+            "ne m'insute pas",
+            "espèce de connard",
+            "doucement sur les insultes mon reuf"
+        ]
+    },
+    {
+        "phrases": [
+            "je veux de l'aide",
+            "j'ai besoin d'aide"
+        ],
+        "answers": [
+            "en quoi puis-je vous aider"
+        ]
+    },
+    {
+        "phrases": [
+            "quel est mon prénom",
+            "quel est mon nom",
+            "comment je m'appelle"
+        ],
+        "answers": [
+            "ton nom est Shawiiz_z"
+        ],
+        "type": "question"
+    },
+    {
+        "phrases": [
+            "quelle est ta couleur préférée"
+        ],
+        "answers": [
+            "ma couleur préférée est le bleu"
+        ],
+        "type": "question"
+    },
+    {
+        "phrases": [
+            "que penses tu de Siri"
+        ],
+        "answers": [
+            "je l'aime pas",
+            "il est nul je préfère google assistant"
+        ],
+        "type": "question"
+    },
+    {
+        "phrases": [
+            "ok",
+            "okay",
+            "dac",
+            "dacc",
+            "d'accord"
+        ],
+        "answers": [
+            "cool",
+            "d'accord",
+            "ça marche"
+        ]
+    },
+    {
+        "phrases": [
+            "rien a foutre",
+            "blc",
+            "bat les couilles",
+            "je m'en fou"
+        ],
+        "answers": [
+            "je vais te battre les couilles"
+        ]
+    },
+    {
+        "name": "learn",
+        "phrases": [
+            "je peux t'apprendre quelque chose"
+        ],
+        "answers": [
+            "oui, bien sur, dites moi ce que vous voulez"
+        ],
+        "handler": "learnHandler"
+    },
+    {
+        "name": "shutdown",
+        "phrases": [
+            "éteins mon pc"
+        ],
+        "answers": [
+            "j'ai désac cette fonction t un ouf toi"
+        ]
+    },
+    {
+        "phrases": [
+            "est ce que shawiizz sait dev "
+        ],
+        "answers": [
+            "non"
+        ]
+    },
+    {
+        "phrases": [
+            "mandodb"
+        ],
+        "answers": [
+            "oh ce gros bg il a un énorme braqumar hmm j'adore me frotter à lui."
+        ]
+    }
+]
